@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App header {
+  background-color: #9130ff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 1.0rem 1.5rem;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.login-form {
+  display: inline-block;
+  width: 20em;
+}
+
+.full-width-input {
+  display: block;
+  text-align: right;
+}
+
+.full-width-input input {
+  width: 12em;
+  padding: 4px 8px;
+  margin: 4px 8px;
+  border: 1px solid #aaaaaa;
+  border-radius: 0;
+}
+
+ul.menu {
+  list-style: none;
+}
+
+ul.menu li {
+  display: inline;
+  padding: 12px;
+}
+
+ul.menu a {
+  color: #ffffff;
+}
